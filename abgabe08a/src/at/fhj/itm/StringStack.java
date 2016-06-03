@@ -13,7 +13,7 @@ public class StringStack implements Stack
 	private int offset = -1;
 	
 	/**
-	 * Initializes Stack
+	 * Initializes Stack with size
 	 * @param size Number of elements
 	 */
 	public StringStack(int size) {
@@ -21,7 +21,7 @@ public class StringStack implements Stack
 	}
 
 	/**
-	 * Checks if Stack is empty
+	 * Checks if the Stack is empty
 	 * @return true if empty otherwise false
 	 */
 	@Override

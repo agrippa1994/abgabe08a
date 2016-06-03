@@ -31,7 +31,7 @@ public class StringStack implements Stack
 
 	@Override
 	/**
-	 * Pushes element onto the stack
+	 * Pushes an element onto the stack
 	 * @param item String element
 	 */
 	public void push(String item) {
